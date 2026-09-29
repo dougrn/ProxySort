@@ -1,0 +1,12 @@
+# Lista de Proxies Upstream (um por linha)
+# Linhas iniciadas com '#' ou em branco são ignoradas.
+
+# Formato URL HTTP / HTTPS:
+http://usuario1:senha1@proxy1.exemplo.com:8080
+http://usuario2:senha2@185.120.30.40:3128
+
+# Formato URL SOCKS5:
+socks5://usuario3:senha3@proxy2.exemplo.com:1080
+
+# Formato Scraper (IP:Porta:Usuário:Senha):
+192.168.1.50:8000:meuuser:minhasenha

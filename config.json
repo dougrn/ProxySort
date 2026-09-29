@@ -1,0 +1,14 @@
+{
+  "listen_host": "127.0.0.1",
+  "listen_port": 8080,
+  "timeout": 4.0,
+  "auth": null,
+  "proxies_file": "proxies.txt",
+  "fallback_proxy": "http://backup_user:backup_pass@127.0.0.1:9099",
+  "raw_target": null,
+  "proxies": [
+    "http://user1:pass1@1.2.3.4:8080",
+    "socks5://user2:pass2@5.6.7.8:1080",
+    "9.10.11.12:8888:user3:pass3"
+  ]
+}
